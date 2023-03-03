@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="home-team">HOME</h3>
+                <div><br>
+                <p class="home-score" id='score-home'>0</p>
+                
+                
+                   <div class = 'btn'>
+                   
+                        <button id="pts-btn1" onclick="homeTeam3()">Field Goal</button>
+                        <button id="pts-btn2" onclick="homeTeamTd()">Touch Down</button>
+                        <button id="pts-btn3" onclick="homeTeamExtraPoint()">Extra Point</button>
+                   </div>
+                     
+                </div>
+            </div>
+            <div><div><article class="clock" id="model3">
+  <h3></h3>
+
+  <div class="count">
+    <div id="timer"></div>
+  </div>
+</article></div></div>
+            <div>
+               
+                <h3 class="away-team">Away</h3>
+                <div><br>
+                <p class="away-score" id ='score-away'>0</p>
+                    <div class = 'btn'>
+            <button id="pts-btn4" onclick="awayTeamFg()">Field Goal</button>
+            <button id="pts-btn5" onclick="awayTeamTD()">Touch Down</button>
+            <button id="pts-btn6" onclick="awayTeamFgExtraPoint()">Extra Point</button>
+            <div>
+                   
+ 
+                </div>
+            </div>
+                
+        </div>
+        <div>
+            <p class="quarters">
+                
+        </div>
+         
+        <script src="index.js"></script>
+    </body>
+</html>
